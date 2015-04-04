@@ -8,7 +8,7 @@ A simple config module with an integrated consul service discovery system for ph
 #Requirements
 
 * git
-* PHP >=5.3.3
+* PHP >=5.4.0
 * [kpacha/config](https://github.com/kpacha/config) (so check its dependencies!)
 * [sensiolabs/consul-php-sdk](https://github.com/sensiolabs/consul-php-sdk) (so check its dependencies!)
 
