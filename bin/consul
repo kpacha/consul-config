@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+$start = microtime(true);
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Kpacha\Config\Console\Application;
+
+$app = new Application();
+$app->run();

@@ -1,0 +1,32 @@
+{
+    "name": "kpacha/consul-config",
+    "description": "Resilent configuration system based on consul",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kpacha",
+            "email": "kpacha666@gmail.com"
+        }
+    ],
+    "require": {
+        "kpacha/config": "~0.1",
+        "sensiolabs/consul-php-sdk": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "bin": ["bin/consul-config"],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kpacha\\Config\\Consul\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kpacha\\Config\\Consul\\": "tests/"
+        }
+    }
+}
